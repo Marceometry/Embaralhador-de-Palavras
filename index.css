@@ -1,0 +1,49 @@
+body {
+  color: #eee;
+  background-color: #333;
+  font-family: sans-serif;
+}
+
+.wrapper {
+  width: 600px;
+  margin: 96px auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box {
+  width: 100%;
+  color: inherit;
+  font-family: inherit;
+  text-align: justify;
+  line-height: 1.5;
+  font-size: 16px;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid #999;
+  background-color: #111;
+}
+
+button {
+  margin-top: 16px;
+  padding: 10px 64px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #eee;
+  cursor: pointer;
+  transition: filter 0.3s;
+}
+
+button:hover {
+  filter: brightness(0.8);
+}
+
+.scrambledText {
+  margin-top: 32px;
+}
+
+p {
+  margin: 0;
+}
