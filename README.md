@@ -8,7 +8,7 @@
   <img alt="Project Mockup" src=".github/mockup.png" width="100%">
 </p>
 
-Esta pequena aplicação que utiliza HTML, CSS e JavaScript pega o texto que você digitar no campo especificado e cria um texto novo embaralhando a ordem das palavras.
+Esta pequena aplicação que utiliza JavaScript para pegar o texto que você digitar no campo especificado e cria um texto novo embaralhando a ordem das palavras.
 
 ---
 
