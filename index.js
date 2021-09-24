@@ -1,6 +1,20 @@
-const textarea = document.querySelector('textarea')
+window.addEventListener('load', () => createResultArea())
+window.removeEventListener('load', () => createResultArea())
 
-function scrambleWords() {
+function createResultArea() {
+  const wrapper = document.querySelector('.wrapper')
+  const div = document.createElement('div')
+  const p = document.createElement('p')
+
+  wrapper.appendChild(div)
+  div.appendChild(p)
+
+  div.classList.add('scrambledText')
+  div.classList.add('box')
+}
+
+function scrambleText() {
+  const textarea = document.querySelector('textarea')
   if (!textarea.value) return
 
   const arrayText = textarea.value.split(' ')
