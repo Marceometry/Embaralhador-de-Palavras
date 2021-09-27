@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   color: #eee;
   background-color: #333;
@@ -42,8 +48,4 @@ button:hover {
 
 .scrambledText {
   margin-top: 32px;
-}
-
-p {
-  margin: 0;
 }
