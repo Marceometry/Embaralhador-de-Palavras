@@ -1,18 +1,3 @@
-window.addEventListener('load', () => createResultArea())
-window.removeEventListener('load', () => createResultArea())
-
-function createResultArea() {
-  const wrapper = document.querySelector('.wrapper')
-  const div = document.createElement('div')
-  const p = document.createElement('p')
-
-  wrapper.appendChild(div)
-  div.appendChild(p)
-
-  div.classList.add('scrambledText')
-  div.classList.add('box')
-}
-
 function generateScrambledText() {
   const textarea = document.querySelector('textarea')
   if (!textarea.value) return
